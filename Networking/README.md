@@ -1,26 +1,46 @@
 # Networking Learning Journey
 
-This repository contains my networking notes and practical labs while learning Cybersecurity.
+# Transmission Control Protocol (TCP)
 
-## Topics Covered
+Transmission Control Protocol (TCP) is a **connection-oriented** protocol that establishes a connection between the sender and the receiver before transmitting data.
 
-- TCP
-- UDP
-- TCP 3-Way Handshake
-- Why TCP is Reliable
-- Why UDP is Faster
-- TCP vs UDP
-- Protocols using TCP and UDP
-- ARP (Address Resolution Protocol)
-- Cisco Packet Tracer Basics
-- Wireshark Basics
+TCP ensures that data is delivered **accurately, reliably, and in the correct order**. If any packet is lost during transmission, TCP detects the loss and retransmits the missing packet.
 
-## Tools Used
+TCP uses a **3-way handshake** to establish a connection:
 
-- Cisco Packet Tracer
-- Wireshark
-- Windows Command Prompt
+1. SYN – The client requests a connection.
+2. SYN-ACK – The server acknowledges the request and responds.
+3. ACK – The client acknowledges the server's response, and the connection is established.
 
-## Goal
+## Features
+- Connection-oriented
+- Reliable data delivery
+- Error checking
+- Packet retransmission
+- Ordered data delivery
 
-To master Networking before starting CCNA and Cybersecurity.
+## Common Uses
+- HTTP/HTTPS
+- FTP
+- SSH
+- Email (SMTP, IMAP, POP3)
+# TCP
+
+## What is TCP?
+Transmission Control Protocol (TCP) which make a connedction between sender and receiver and send data without losing packet with a helo of 3 way hand shake it is more faster than UDP and more reliable and more acurate
+
+## Key Features
+- Reliable
+- Connection-Oriented
+- Ordered Delivery
+
+## Real-world Uses
+- HTTPS
+- SSH
+- FTP
+
+## Commands Practiced
+None
+
+## What I Learned
+Today I learned how TCP establishes a connection using the 3-way handshake before transmitting data.
