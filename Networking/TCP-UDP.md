@@ -49,3 +49,74 @@ UDP is mainly used in applications where speed is more important than reliabilit
 - Online Gaming
 - Video Streaming
 - Live Broadcasting
+
+| TCP                      | UDP                         |
+| ------------------------ | --------------------------- |
+| Connection-oriented      | Connectionless              |
+| Reliable                 | Not reliable                |
+| Slower                   | Faster                      |
+| Uses 3-way handshake     | No handshake                |
+| Guarantees delivery      | No guarantee of delivery    |
+| Retransmits lost packets | Does not retransmit packets |
+
+
+# TCP 3-Way Handshake
+
+The **TCP 3-Way Handshake** is the process used by TCP to establish a reliable connection between a client and a server before data is transmitted.
+
+## Steps
+
+### Step 1: SYN
+The **client** sends a **SYN (Synchronize)** packet to the server to request a connection.
+
+**Client → Server**
+```
+SYN
+```
+
+---
+
+### Step 2: SYN-ACK
+The **server** responds with a **SYN-ACK (Synchronize-Acknowledge)** packet to acknowledge the client's request and indicate that it is ready to communicate.
+
+**Server → Client**
+```
+SYN + ACK
+```
+
+---
+
+### Step 3: ACK
+The **client** sends an **ACK (Acknowledge)** packet back to the server.
+
+**Client → Server**
+```
+ACK
+```
+
+After this step, the connection is successfully established, and both the client and server can begin exchanging data.
+
+## Diagram
+
+```text
+Client                         Server
+   | -------- SYN -----------> |
+   | <------ SYN + ACK ------- |
+   | -------- ACK -----------> |
+   |                           |
+   |===== Connection Established =====|
+```
+
+## Why is the 3-Way Handshake Important?
+
+- Establishes a reliable connection.
+- Confirms that both devices are ready to communicate.
+- Synchronizes sequence numbers.
+- Helps prevent connection errors and data loss.
+
+## Key Points
+
+- Used only by **TCP**.
+- Occurs before any data is transmitted.
+- Makes TCP reliable but slightly slower than UDP.
+
