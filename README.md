@@ -20,3 +20,20 @@
 📫 **Let's Connect**
 
 * LinkedIn: [www.linkedin.com/in/mohd-huzaifa-b7958b399](http://www.linkedin.com/in/mohd-huzaifa-b7958b399)
+
+* ## 🛠️ Tech Stack
+
+- Networking: Cisco Packet Tracer, TCP/IP, DNS, DHCP, VLANs
+- Operating Systems: Windows, Linux
+- Cybersecurity: Wireshark, Nmap, SIEM Fundamentals
+- Programming: Python (Basics), Bash (Basics)
+- Version Control: Git, GitHub
+
+## 🌱 Currently Learning
+
+- CCNA
+- TryHackMe
+- SOC Analyst Skills
+- Network Security
+- Incident Response
+- Log Analysis
