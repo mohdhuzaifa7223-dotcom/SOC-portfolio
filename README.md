@@ -1,0 +1,2 @@
+# Hello, I'm Huzaifa Shaikh
+<a href= "https://www.linkedin.com/in/mohd-huzaifa-b7958b399"><img src="https://img.shields.io/badge/-LinkdIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
